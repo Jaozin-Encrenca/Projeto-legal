@@ -1,0 +1,18 @@
+<!-- Vídeos em HTML -->
+
+<video controls controlsList="nodownload" autoplay muted poster="ObitoColorido.jpg" height="200px" width="200px"> <!-- Redundante mas ok rs -->
+    <!-- Controls habilita os controles do vídeo
+
+    controlsList te permite habilitar ou desabilitar alguns controles específicos
+
+    autoplay dá play no vídeo assim que a página carrega, mas alguns navegadores bloqueiam, então é
+melhor adicionar o "muted" para que o Google Chrome ou o Microsoft Edge permitam e não
+atrapalhe o funcionamento do site. -->
+
+<source src="./vedio/viktor_forro.mkv">
+<source src="./vedio/viktor_forro.mp4">
+<source src="./vedio/viktor_forro.mov">
+
+<!-- Por que usar o source src? Porque ele permite que você
+coloque mais de um vídeo numa pasta e, caso um vídeo falhe, o outro será executado como um "backup".
+</video>
